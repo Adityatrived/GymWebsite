@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('gymbackground.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color:#e4e9f2;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 130px;
+    background-color: #000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    font-family: Nunito, sans-serif;
+    z-index: 1000;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.15em;
+    font-family: merriweather, sans-serif;
+}
+
+.left img {
+    width: 75px;
+    border: 6px solid yellow;
+}
+
+.mid {
+        display: grid;
+        grid-row: 2;
+        font-family: merriweather, sans-serif;
+        color: azure;
+}
+
+.right {
+    display: grid;
+    grid-row: 2;
+    color: #fce477;
+    margin-right: 10px;
+}
+
+.menu-icon {
+    display: none;
+}
+.menu-icon i {
+    font-size:30px;
+}
+
+.quick-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 20px;
+     background-color: #333;
+}
+
+.quick-links li {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.quick-links li a {
+    color: orange;
+    font-family: sans-serif;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.quick-links li a:hover {
+    color: #1C86EE;
+    font-weight: bold;
+}
+
+.btn1,
+.btn2 , .btn3 {
+    padding: 15px 0px;
+    color: black;
+    width: 42%;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+    min-width: 100px;
+}
+    
+.btn1 {
+    background-color: #007bff;
+}
+
+.btn2 {
+    background-color: #FF0000;
+}
+.btn3 {
+    width: 10%;
+}
+
+.content {
+    padding-top: 62px; 
+    overflow-y: auto; 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row: 1;
+}
+
+img {
+    border-radius: 50%;
+    width: 40%;
+    height: 53%;
+}
+
+main {
+    margin-top: 140px; 
+}
+
+.container {
+    color: #fce477;
+    margin: 0px auto;
+    padding: 0px 20px;
+    width: 58%;
+    max-width: 444px;
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 60%; 
+    margin: auto;
+    color:white ;
+    border-radius: 49px;
+    background-color: #000;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 100%; 
+    max-width: 300px; 
+    padding: 7px;
+    border: 3px solid black;
+    margin: 12px auto;
+    border-radius: 23px;
+}
+
+#about {
+    border: 8px solid yellow;
+    margin: 34px;
+    padding: 23px;
+    border-radius: 23px;
+    font-size: 2.15em;
+    color: rgb(255, 255, 254);
+    box-shadow: -5px 4px 8px  white;
+    font-family:  merriweather, sans-serif;
+    font-size: 2.15rem; backdrop-filter: blur(10px);
+}
+
+#FAQs {
+    backdrop-filter: blur(4px);
+    border: 8px solid yellow;
+    margin: 34px;
+    padding: 23px;
+    border-radius: 23px;
+    font-size: 2.15em;
+    color: rgb(255, 255, 254);
+     font-family:  merriweather, sans-serif;
+    box-shadow: -5px 4px 8px  white;
+}
+
+#contac {
+    border: 8px solid yellow;
+    margin: 34px;
+    padding: 23px;
+    border-radius: 23px;
+    font-size: 1.55em;
+    color: rgb(255, 255, 254);
+    font-family:  merriweather, sans-serif;
+}
+   
+.contact {
+    text-align: center;
+    display: block;
+    width: 100%; 
+    padding: 2px;
+    margin: 12px auto;
+    border-radius: 23px;
+    box-shadow: -5px 8px 8px  white;
+    backdrop-filter: blur(10px);
+}
+
+.sale_cont {
+    display: none;
+}
+
+footer {
+   background-color: #000;
+   color: white;
+   text-align: center;
+   padding: 20px 0;
+   position: relative;
+   width: 100%;
+   bottom: 0;
+}
+
+.footer-container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.thanks {
+    font-size: 1.9em;
+    margin: 10px 0;
+}
+
+@media screen and (max-width:768px) {
+
+    .slogan {
+        display: none;
+    }
+
+    #about {
+        border: 8px solid yellow;
+        margin: 34px;
+        padding: 23px;
+        width: 90%;
+        border-radius: 23px;
+        font-size: 1.45em;
+        color: rgb(255, 255, 254);
+        box-shadow: -5px 4px 8px white;
+        font-family: merriweather, sans-serif;
+        font-size: 1.15rem;
+        backdrop-filter: blur(10px);
+    }
+
+    #FAQs {
+        backdrop-filter: blur(4px);
+        border: 8px solid yellow;
+        margin: 34px;
+        padding: 23px;
+        width: 90%;
+        border-radius: 23px;
+        font-size: 1.55em;
+        color: rgb(255, 255, 254);
+        font-family: merriweather, sans-serif;
+        box-shadow: -5px 4px 8px white;
+    }
+
+    #contac {
+        border: 8px solid yellow;
+        margin: 34px;
+        padding: 23px;
+        width: 90%;
+        border-radius: 23px;
+        font-size: 1.45em;
+        color: rgb(255, 255, 254);
+        font-family: merriweather, sans-serif;
+    }
+    
+    .container {
+        color: #fce477;
+        margin: 0px 12px;
+        padding: 3px 20px;
+        width: 106%;
+        max-width: 444px;
+        border-radius: 28px;
+    }
+   
+    .btn1,
+.btn2 , .btn3 {
+    padding: 10px 20px;
+     margin-top: 44px;
+    margin-left: 81px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+    min-width: 100px; 
+}
+    
+.btn1 {
+    background-color: #007bff;
+}
+
+.btn2 {
+    background-color: #FF0000;
+}
+    
+img {
+    border-radius: 50%;
+    width: 55%;
+    height: 40%;
+}
+
+.content {
+    padding-top: 62px; 
+    overflow-y: auto; 
+    display: grid;
+    width: 119%;
+    gap: 5%;
+    grid-template-columns: repeat(2,1fr);
+    grid-row: 1;
+}
+    
+nav ul {
+       position: absolute;
+       top: 150px;
+       left: 0;
+       display: flex;
+       text-align: center;
+       background-color: black;
+}
+   
+.menu-icon {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 20px;
+        color: #fff;
+} 
+     
+.quick-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+     top: 130px;
+    left: 0;
+    padding: 10px 0;
+}
+
+.quick-links.active {
+display: flex;
+}
+
+.menu-icon {
+display: block;
+}
+
+.thanks {
+font-size: 1.5em;
+}
+
+footer {
+padding: 15px 0;
+ width: 119%;
+}
+
+}

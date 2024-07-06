@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-WphXhL33vhovR1egFJKxX9Jfa47v9fO1RDULXZf0f2PrmGWgZ6Z7m8Xw5R3w3aok2dFEnqWYim97gHCOFXU3wA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>FIT LIFE BY ADITYATRIVED</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Gym_website.css">
+    
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <figure>
+                <img src="gymicon.png" alt="GET READY TO FIT">
+                <figcaption>"Get Fit"</figcaption>
+            </figure>
+
+            <div class="greet">
+                <h1><span style="color: lightsalmon;">Fit Life </span></h1>
+                <p><span style="color: yellow;">-Adityatrived</span></p>
+            </div>
+        </div>
+        <div class="slogan">
+            <h1><span style="color: lightsalmon;">Transform Your</span></h1>
+            <p><span style="color: yellow; font-size: 1.8em;">Life</span></p>
+        </div>
+        
+        <div class="mid">
+            <nav>
+                <ul class="quick-links" id="menuList">
+                    <li><a href="#about" onclick="cloeMenu()">About Us</a></li>
+                    
+                    <li><a href="#FAQs"  onclick="cloeMenu()">FAQs</a></li>
+                    <li><a href="#contac"  onclick="cloeMenu()">Contact Us</a></li>
+                </ul>
+               
+                <div class="menu-icon" id="menuIcon" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="content">
+        
+            <div class="container" id="form">
+                <h1><span style="color:yellow;">Join the best gym in our country</span></h1> 
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="full-name" placeholder=" NAME">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="gender" placeholder="GENDER">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="age" placeholder="AGE">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="locality" placeholder="LOCALITY">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="phone-number" placeholder="PHONE NUMBER">
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+
+             <div class="sale">
+                <div class="im">
+                    <img src="https://png.pngtree.com/png-clipart/20221224/original/pngtree-transparent-25-off-sale-discount-offer-banner-png-image_8802243.png" alt="sale offer">
+                
+                </div>
+                
+                <div class="right">
+                    <button class="btn1">CALL US</button>
+                    <button class="btn2">EMAIL US</button>
+                </div>
+            </div>
+        </div>
+
+            <br><br><br>
+
+        <section id="about">
+                <h2 style="color:#fff">About us</h2>
+                <p>
+                    "FIT LIFE - Where Health and Happiness Meet Together.</p>
+
+                <p>    Our goal is to make fitness accessible for all, whether you're a pro or just starting out. Beyond exercise equipment, we offer classes on nutrition, mindfulness, and overall well-being. We emphasize community, aiming to create a supportive family-like environment. Starting this new chapter, we're excited and grateful for the opportunity to pursue our passion. Join us in this journey towards fitness, fun, and friendship. Welcome to our gym, where everyone is welcome, and anything is possible."</p>
+
+        </section>
+               <br><br><br>
+
+        <section id="FAQs">
+                <h2>Frequently Asked Questions</h2>
+
+            <details>
+               <summary>What are your facility hours?</summary>
+               <p>Our gym is open from 6AM-9AM & 5PM-7PM. We are open for all weekdays and holidays except wednesday.</p>
+            </details>
+
+           <details>
+               <summary>What types of equipment do you have available? Do you offer group classes?</summary>
+               <p>We have a wide range of state-of-the-art equipment, including cardio machines, weightlifting equipment, and functional training areas. Additionally, we offer a variety of group classes such as yoga, spin, and HIIT, led by certified instructors.</p>
+            </details>
+
+            <details>
+                <summary>What types of memberships do you offer? What are the rates?</summary>
+                <p>We offer various membership options to suit different needs, including monthly, quarterly, and annual memberships. Rates vary depending on the duration and type of membership. Please contact us directly at nearby information cenmtres provided by the gym for current pricing information.</p>
+            </details>
+
+           <details>
+                <summary>What are the benefits of being a member?</summary>
+                <p>Membership includes access to all of our facilities and equipment, as well as unlimited group classes. Members also receive discounts on personal training sessions, access to exclusive member events, and personalized fitness consultations.</p>
+            </details>
+
+            <details>
+                <summary>Can memberships be frozen or put on hold?</summary>
+                <p>Yes, members can freeze their membership for up to 2 months per year for a small fee. This option is ideal for individuals who are temporarily unable to utilize the gym due to travel or other commitments.</p>
+             </details>
+
+            <details>
+                 <summary>What is your cancellation policy?</summary>
+                 <p>Members can cancel their membership at any time  30 day-notice prior to their next billing cycle. Please note that early termination fees may apply.</p>
+            </details>
+
+            <details>
+                 <summary> Is parking available for members?</summary>
+                <p>Yes, we offer free parking for members in our designated parking area.</p>
+            </details>
+        </section>
+
+        <br><br><br>
+          
+        <section id="contac">
+                    <h2>Contac Us</h2>
+                    <form class="contact">
+                        <label for="first-name">1.FIRST NAME:</label>
+                        <input type="text" id="first-name" name="first anme" placeholder="FIRST NAME">
+                        <br>
+                        <label for="contact-number">2.CONTACT NUMBER:</label>
+                        <input type="text" id="contact-number" name="contact-number" placeholder="CONTACT NUMBER">
+                        <br>
+                        <label for="queries">3.QUERIES:</label>
+                        <textarea id="queries" name="queries" rows="6" cols="40" maxlength="500" placeholder="write your queries here...(maxinum no of characters you can enter is 500)"></textarea>
+                        
+              
+                        <button class="btn3" >SUBMIT</button>
+                        
+                      </form> 
+    
+        </section>  
+    </main>
+    <footer>   
+        <div class="footer-container">
+            <p class="thanks">Thank you for visiting My Fit Life Gym!</p>
+            <p style="font-size: 1.4em;">&copy; 2024 Adityatrived. All rights reserved.</p>
+        </div> 
+      
+    </footer>
+    
+    <script src="Gym_website.js"></script>
+           
+</body>
+</html>
